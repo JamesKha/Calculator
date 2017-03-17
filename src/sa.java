@@ -74,11 +74,12 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "0");
-					label.setText(label.getText() + " 0");
+					label.setText("");
+					label.setText(label.getText() + "0");
 					eqPressed[0] = false;
 				}else{
 					textField.setText(textField.getText() + "0");
-					label.setText(label.getText() + " 0");
+					label.setText(label.getText() + "0");
 				}					
 			}
 		});
@@ -96,6 +97,7 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "1");
+					label.setText("");
 					label.setText(label.getText() + "1");
 					eqPressed[0] = false;
 				}else{
@@ -116,6 +118,7 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "2");
+					label.setText("");
 					label.setText(label.getText() + "2");
 					eqPressed[0] = false;
 				}else{
@@ -136,6 +139,7 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "3");
+					label.setText("");
 					label.setText(label.getText() + "3");
 					eqPressed[0] = false;
 				}else{
@@ -156,6 +160,7 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "4");
+					label.setText("");
 					label.setText(label.getText() + "4");
 					eqPressed[0] = false;
 				}else{
@@ -176,6 +181,7 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "5");
+					label.setText("");
 					label.setText(label.getText() + "5");
 					eqPressed[0] = false;
 				}else{
@@ -196,6 +202,7 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "6");
+					label.setText("");
 					label.setText(label.getText() + "6");
 					eqPressed[0] = false;
 				}else{
@@ -216,6 +223,7 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "7");
+					label.setText("");
 					label.setText(label.getText() + "7");
 					eqPressed[0] = false;
 				}else{
@@ -236,6 +244,7 @@ public class sa {
 				if(eqPressed[0] == true){
 					textField.setText("");
 					textField.setText(textField.getText() + "8");
+					label.setText("");
 					label.setText(label.getText() + "8");
 					eqPressed[0] = false;
 				}else{
@@ -254,8 +263,9 @@ public class sa {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				if(eqPressed[0] == true){
-					//textField.setText(null);
+					textField.setText("");
 					textField.setText(textField.getText() + "9");
+					label.setText("");
 					label.setText(label.getText() + "9");
 					eqPressed[0] = false;
 				}else{
@@ -277,6 +287,7 @@ public class sa {
 					textField.setText("");
 					textField.setText(textField.getText() + ".");
 					label.setText(label.getText() + ".");
+					label.setText("");
 					eqPressed[0] = false;
 				}else{
 					textField.setText(textField.getText() + ".");
